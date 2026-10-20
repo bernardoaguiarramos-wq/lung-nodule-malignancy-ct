@@ -1,0 +1,18 @@
+# Lab IA & CD – Project 1 | Python 3.11
+# pyradiomics is installed separately (see SETUP.md) because it is compiled from source.
+numpy<2            # pyradiomics' C extensions are not compatible with NumPy 2
+pandas
+scipy
+scikit-learn
+scikit-image
+imbalanced-learn
+matplotlib
+jinja2             # pandas table formatting (.style) in Notebook 4
+SimpleITK
+pydicom
+ipykernel
+setuptools<80        # pylidc needs pkg_resources, removed from newer setuptools
+wheel
+versioneer
+pylidc             # LIDC-IDRI annotations (Notebooks 5–6)
+tcia_utils         # LIDC-IDRI download (download_lidc.py)
